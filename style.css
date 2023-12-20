@@ -9,10 +9,12 @@ body{
     font-weight: bold;
     text-decoration: underline;
     color: black;
+    font-size: 30px;
 }
 p{
     color: navy;
     font-weight: bolder;
+    white-space: pre;
 }
 .buttons{
     color: gray;
@@ -21,4 +23,7 @@ p{
     background-attachment: fixed;
     border-style: outset;
     border-radius: 10px;
+}
+#img1{
+    height: 200px;
 }
