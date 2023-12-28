@@ -4,6 +4,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    margin: 50px;
 }
 .headings{
     font-weight: bold;
@@ -12,6 +13,7 @@ body{
     font-size: 30px;
 }
 p{
+    clear: both;
     color: navy;
     font-weight: bolder;
     white-space: pre;
@@ -24,6 +26,24 @@ p{
     border-style: outset;
     border-radius: 10px;
 }
-#img1{
+.img{
     height: 200px;
+    float: left;
+}
+.back1{
+    margin-right: 150px;
+}
+#titl-ish{
+    clear: both;
+    color: yellow;
+}
+.nfimages{
+    clear: both;
+    height: 200px;
+}
+.video{
+    height: 180px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: 30px;
 }
