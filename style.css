@@ -40,6 +40,7 @@ p{
 .nfimages{
     clear: both;
     height: 200px;
+    animation: 3s linear 0s infinite running myScale;
 }
 .video{
     height: 180px;
@@ -49,4 +50,7 @@ p{
 }
 button:hover{
     color: tomato;
+}
+@keyframes myScale{
+    50%{transform: scale(0.5, 0.5);}
 }
